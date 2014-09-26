@@ -55,11 +55,20 @@ header, footer, .info, .menu {
 	padding: 1em;
 }
 
-.menu {
-	background-color: rgba(207, 205, 140, 0.5);
-
+header {
+	background-color: #FA5A0F;
+	border-bottom-style: solid;
+	border-bottom-color: #EA4E00;
+	border-bottom-width: 5px;
+	color: #FFFFFF;
+	font-size: 120%;
+	color: #EEEEEE;
 }
 
+.menu {
+	background-color: rgba(207, 205, 140, 0.5);
+}
+/* This is not the right way to set the fonts for the menu */
 dt {
 	font-size: 400;
 	color: #000000;
@@ -70,23 +79,14 @@ dd {
 	font-style: italic;
 }
 
-header {
-	background-color: #FA5A0F;
-	border-bottom-style: solid;
-	border-bottom-color: #EA4E00;
-	border-bottom-width: 5px;
-	color: #FFFFFF;
-	font-size: 120%;
-	color: #EEEEEE;
-
-}
+/* Above is not right */
 
 footer {
 	background-color: #FC892F;
 	border-top-style: solid;
 	border-top-color: #EC791F;
 	border-top-width: 5px;
-	text-size: 80%;
+	font-size: 80%;
 	text-align: right;
 }
 
