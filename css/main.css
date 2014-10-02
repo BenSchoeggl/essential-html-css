@@ -57,12 +57,16 @@ header, footer, .info, .menu {
 
 header {
 	background-color: #FA5A0F;
-	border-bottom-style: solid;
-	border-bottom-color: #EA4E00;
-	border-bottom-width: 5px;
+	border-bottom: 5px solid #EA4E00;
 	color: #FFFFFF;
 	font-size: 120%;
 	color: #EEEEEE;
+}
+
+header p {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
 }
 
 .menu {
@@ -70,7 +74,7 @@ header {
 }
 /* This is not the right way to set the fonts for the menu */
 dt {
-	font-size: 400;
+	font-weight: 400;
 	color: #000000;
 }
 
