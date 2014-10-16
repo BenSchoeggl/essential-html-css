@@ -36,6 +36,7 @@ h2, h3 {
 
 h2 {
 	font-size: 150%;
+	margin: 0;
 }
 
 h3 {
@@ -59,8 +60,11 @@ header {
 	background-color: #FA5A0F;
 	border-bottom: 5px solid #EA4E00;
 	color: #FFFFFF;
-	font-size: 120%;
 	color: #EEEEEE;
+}
+
+header p {
+	font-size: 120%;
 }
 
 header p {
@@ -81,6 +85,8 @@ dt {
 dd {
 	font-size: 80%;
 	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
 }
 
 footer {
